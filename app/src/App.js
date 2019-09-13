@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import hippo from './hippo.jpg';
+import animal from './platypus.jpg';
 import * as ml5 from 'ml5';
 
 class App extends Component {
@@ -52,7 +52,7 @@ class App extends Component {
     return (
       <div className="App">
       <h1>Image classification with ML5.js</h1>
-      <img src={ hippo } id="image" width="400" alt="" />
+      <img src={ animal } id="image" width="400" alt="" />
       { predictions }
       </div>
     );
