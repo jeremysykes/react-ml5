@@ -40,12 +40,9 @@ class App extends Component {
     // Map over the predictions and return each prediction with probability
     if(this.state.predictions.length > 0){
       predictions = this.state.predictions.map((pred, i) => {
-        console.log('pred, i: ', pred, i);
         let { label, confidence } = pred;
-        console.log('label, confidence: ', label, confidence);
         // round the confidence with 2 decimal
         confidence = Math.floor(confidence * 10000) / 100 + "%";
-        console.log('confidence: ', confidence);
         return (
           <div key={ i + "" }>{ i+1 }. Prediction: { label } at { confidence } </div>
         )
