@@ -1,8 +1,8 @@
 # react-ml5
 
-Image classification with React and ML5.js using MobileNet.
+Drag-and-drop animal classification with React and ML5.js using MobileNet.
 
-![Image classification with ML5.js](public/assets/react-ml5.png)
+![Animal classifier](public/assets/react-ml5.png)
 
 ## Setup
 
